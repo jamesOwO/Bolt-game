@@ -13,7 +13,7 @@ public class RandomMathsEquation : MonoBehaviour
         number1 = Random.Range(0, 13);
         number2 = Random.Range(0, 13);
         total = number1 * number2;
-        question.text = number1 + "X" + number2;
+        question.text = number1 + " X " + number2;
         Debug.Log(question.text);
     }
 
